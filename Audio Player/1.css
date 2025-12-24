@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 970px;
+    background-image: linear-gradient(to bottom right, #ffc4ee, #ead1fc, #dadcff, #d5e5fb, #dceaf3);
+}
+
+.box {
+    width: 350px;
+    height: 550px;
+    margin: 0 auto;
+    padding-top: 20px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.headpic {
+    background-image: url(images/0.jpg);
+    width: 166px;
+    height: 166px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: 1.5s;
+}
+
+.playcontrol {
+    margin: 0 auto;
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?2qzb6a');
+    src: url('fonts/icomoon.eot?2qzb6a#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?2qzb6a') format('truetype'),
+        url('fonts/icomoon.woff?2qzb6a') format('woff'),
+        url('fonts/icomoon.svg?2qzb6a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+@keyframes turnaround{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.donghua{
+    animation: turnaround 10s linear infinite;
+}
+.playcontrol button{
+    font-family: icomoon;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}
+.playcontrol button:hover{
+    color: pink;
+}
+.bofang::before{
+    content: "\ea15";
+}
+.zanting::before{
+    content: "\ea16";
+}
+.last::before{
+    content: "\ea18";
+}
+.next::before{
+    content:"\ea19";
+}
