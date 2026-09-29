@@ -9,6 +9,10 @@ This project is a web-based music player application built entirely with vanilla
 
 It interfaces directly with the HTML5 Audio API to provide playback controls, volume management, and dynamic UI updates without relying on third-party libraries. The project demonstrates core front-end competencies including DOM manipulation, event handling, and CSS keyframe animations.
 
+## Preview
+
+![Project Preview](assets/preview.png)
+
 ## Technical Stack
 * **Core:** HTML5, CSS3, JavaScript (ES6)
 * **Audio Engine:** HTML5 `<audio>` element
