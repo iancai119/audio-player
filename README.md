@@ -36,3 +36,7 @@ audio-player/
 │   └── script.js       # Player logic and event listeners
 ├── audioplayer.html    # Main application entry point
 └── README.md
+
+## Live Demo
+
+👉 [Live Demo](https://iancai119.github.io/audio-player/Audio%20Player/audioplayer.html)
